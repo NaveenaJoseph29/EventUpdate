@@ -1,0 +1,55 @@
+
+.body{
+border: 1px solid;
+}
+.header{
+    text-align: center;
+}
+.content{
+    margin: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-areas: "menu menu main main side side" ;
+    border-style: solid;
+    border-width: 2px;
+}
+.button{
+    text-align: center;
+    margin: 10px;
+}
+.table{
+ margin-top: 20px;
+ /* border-width: 2px;
+ border-style: solid; */
+ margin-left: auto;
+ margin-right: auto;
+ padding: 20px;
+ margin-bottom: 20px;
+}
+.input{
+    margin-left: auto;
+}
+.main-container{
+    border: 1px solid;
+    margin: 20px;
+    padding-bottom :20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.inputbox{
+    margin-left: 20px;
+}
+.inputdiv{
+    padding: 5px;
+}
+.img{
+    align-self: center;
+    /* position: absolute; */
+}
+.right-content{
+    margin-left: 20px;
+}
